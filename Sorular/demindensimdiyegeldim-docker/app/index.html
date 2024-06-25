@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css" integrity="sha512-+oEiKVGJRHutsibRYkkTIfjI0kspDtgJtkIlyPCNTCFCdhy+nSe25nvrCw7UpHPwNbdmNw9AkgGA+ptQxcjPug==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<div class="container is-max-widescreen">
+<div class="tabs is-centered">
+  <ul>
+    <li class="is-active"><a>Security Research Management System</a></li>
+
+  </ul>
+</div>
+<div class="card">
+  <div class="card-content">
+    <div class="content">
+      <span class="tag is-danger">Personel-1</span> Kullanıcısı olarak sadece sizlere izin verilen raporlara erişiminiz bulunmaktadır.
+    </div>
+  </div>
+</div>
+<div class="file is-danger is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label"> Rapor silindi. </span>
+    </span>
+    <span class="file-name"> 1e5ddb00-f063-11ee-96b0-0800200c9a66 - 01.04.2024 <span class="tag is-link" id="Del" href="#">Raporu İndir </span> &nbsp<span class="tag is-white" id="Silindi" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+<div class="file is-warning is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label"> Rapora Erişim Kısıtlandı.</span>
+    </span>
+    <span class="file-name">Ministry of Interior Systems Security Research - 2024 <span class="tag is-danger" >Erişim Yok </span>&nbsp;<span class="tag is-white" id="SecretDocument" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+<div class="file is-primary is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label"> Study the Great Nation</span>
+    </span>
+    <span class="file-name"> 7c42eb60-efba-11ee-96b0-0800200c9a66 - 31.03.2024   <span class="tag is-link" id="StudyDownload" href="#">Raporu İndir </span>&nbsp;<span class="tag is-white" id="Study" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+<div class="file is-primary is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label">Bitwarden Password Manager</span>
+    </span>
+    <span class="file-name"> 4abcbcf0-efbb-11ee-96b0-0800200c9a66 - 01.04.2024 <span class="tag is-link" id="BitwardenDownload" href="#">Raporu İndir </span>&nbsp;&nbsp<span class="tag is-white" id="Bitwarden" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+<div class="file is-primary is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label">Briar Project App & Protocol</span>
+    </span>
+    <span class="file-name"> 7a815de0-efbd-11ee-96b0-0800200c9a66 - 01.04.2024 <span class="tag is-link" id="BriarDownload" href="#">Raporu İndir </span>&nbsp;&nbsp<span class="tag is-white" id="Briar" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+
+<div class="file is-primary is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label">NTPsec</span>
+    </span>
+    <span class="file-name"> e2672040-f060-11ee-96b0-0800200c9a66 - 01.04.2024   <span class="tag is-link" id="NTPDownload" href="#">Raporu İndir </span>&nbsp;<span class="tag is-white" id="NTP" href="#"> Bilgilendirme</span></span>
+  </label>
+
+</div>
+<div class="file is-info is-fullwidth">
+  <label class="file-label">
+    <span class="file-cta">
+      <span class="file-icon">
+        <i class="fas fa-upload"></i>
+      </span>
+      <span class="file-label">Space Exploration Corporation</span>
+    </span>
+    <span class="file-name"> d3fea900-f061-11ee-96b0-0800200c9a66 - 01.04.2024   <span class="tag is-link" id="IptalDownload" href="#">Raporu İndir </span>&nbsp;<span class="tag is-white" id="Iptal" href="#"> Bilgilendirme</span></span>
+  </label>
+</div>
+</div>
+<audio id="NocturneAudio" src="Nocturne.mp3"></audio>
+</body>
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+    
+    document.body.addEventListener("click", function() {
+        var mozartAudio = document.getElementById("NocturneAudio");
+        mozartAudio.play(); 
+ 
+        document.body.removeEventListener("click", arguments.callee);
+    });
+});
+
+document.getElementById("SecretDocument").addEventListener("click", function() {
+    alert("Dosya Yüklenme Tarihi : 29.10.1923-20:30:00\nDosya Adı: Gizli\nDosya İmza : bafcbb27a295a6b36d40b75ce89adf57\nDosya Adı Hash: def3c4c32117683fcffad14e3b2a9b5d\nYükleyen: SuperRoot\nKategori: Ministry of Interior Systems Security Research - 2024");
+});
+
+document.getElementById("Silindi").addEventListener("click", function() {
+   alert("Dosya Yüklenme Tarihi : 01.04.2024-20:05:00\nDosya Adı: 1e5ddb00-f063-11ee-96b0-0800200c9a66.pdf\nDosya İmza : f2517ad0a5d82839e5c338750249a5bd\nDosya Adı Hash: bfbe151aebdf0c5cfb31e7f24ad9b017\nYükleyen: Personel-1\nKonu: Martı Message Telekomünikasyon Güvenlik Araştırması");
+});
+
+
+
+document.getElementById("Bitwarden").addEventListener("click", function() {
+   alert("Dosya Yüklenme Tarihi : 01.04.2024-00:03:39\nDosya Adı: 4abcbcf0-efbb-11ee-96b0-0800200c9a66.pdf\nDosya İmza : 9a0c9377e5b9309e590fa223c247f4e9\nDosya Adı Hash: bdf3bd780ef485a104108abdcc4a3dfc\nYükleyen: Root-2\nKonu: Password Management Pentest Raporu");
+});
+
+document.getElementById("BitwardenDownload").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "4abcbcf0-efbb-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a"); 
+  link.setAttribute("href", fileUrl); 
+  link.setAttribute("download", ""); 
+  link.setAttribute("target", "_blank");
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+document.getElementById("Briar").addEventListener("click", function() {
+    alert("Dosya Yüklenme Tarihi : 01.04.2024-00:19:18\nDosya Adı: 7a815de0-efbd-11ee-96b0-0800200c9a66.pdf\nDosya İmza : 62f92b1732ecb7e7583c125e0e1182a1\nDosya Adı Hash: 7eb0e8df422863ea762a31e1a1bdbf1a\nYükleyen: Administrator\nKonu: Briar Project App Protokol Güvenlik Raporu");
+});
+
+document.getElementById("BriarDownload").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "7a815de0-efbd-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a"); 
+  link.setAttribute("href", fileUrl);
+  link.setAttribute("download", "");
+  link.setAttribute("target", "_blank"); 
+  link.style.display = "none"; 
+  document.body.appendChild(link); 
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+
+document.getElementById("Study").addEventListener("click", function() {
+  alert("Dosya Yüklenme Tarihi : 31.03.2024-23:57:52\nDosya Adı: 7c42eb60-efba-11ee-96b0-0800200c9a66.pdf\nDosya İmza : 2e9919d489802e2b13cf40bebec31a88\nDosya Adı Hash: 230508e225a337f743bb73c464487916\nYükleyen: Personel-4\nKonu: Pentest Raporu");
+});
+
+document.getElementById("StudyDownload").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "7c42eb60-efba-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a");
+  link.setAttribute("href", fileUrl); 
+  link.setAttribute("download", ""); 
+  link.setAttribute("target", "_blank"); 
+  link.style.display = "none"; 
+  document.body.appendChild(link); 
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+
+document.getElementById("NTP").addEventListener("click", function() {
+  alert("Dosya Yüklenme Tarihi : 01.04.2024-19:49:00\nDosya Adı: e2672040-f060-11ee-96b0-0800200c9a66.pdf\nDosya İmza : a573b205cceb6a4fdd731bfb3196a642\nDosya Adı Hash: b1b4e304d8953cdc961de37c57ffbf56\nYükleyen: Personel-7\nKonu: NPT Güvenlik Araştırma Raporu");
+});
+
+document.getElementById("NTPDownload").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "e2672040-f060-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a"); 
+  link.setAttribute("href", fileUrl); 
+  link.setAttribute("download", ""); 
+  link.setAttribute("target", "_blank"); 
+  link.style.display = "none"; 
+  document.body.appendChild(link); 
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+
+document.getElementById("Iptal").addEventListener("click", function() {
+      alert("Dosya Yüklenme Tarihi : 01.04.2024-19:49:00\nDosya Adı: d3fea900-f061-11ee-96b0-0800200c9a66.pdf\nDosya İmza : f2e593d789815f562012402542eb41e3\nDosya Adı Hash: 6b439ccc24e570022e371556e56ce53e\nYükleyen: Personel-1\nKonu: Space Exploration Corporation Araştırma İptali");
+});
+
+document.getElementById("IptalDownload").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "d3fea900-f061-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a"); 
+  link.setAttribute("href", fileUrl); 
+  link.setAttribute("download", "");
+  link.setAttribute("target", "_blank"); 
+  link.style.display = "none"; 
+  document.body.appendChild(link); 
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+
+
+document.getElementById("Del").addEventListener("click", function(event) {
+  event.preventDefault(); 
+  var fileUrl = "1e5ddb00-f063-11ee-96b0-0800200c9a66.pdf"; 
+  var link = document.createElement("a"); 
+  link.setAttribute("href", fileUrl); 
+  link.setAttribute("download", ""); 
+  link.setAttribute("target", "_blank"); 
+  link.style.display = "none";
+  document.body.appendChild(link); 
+  link.click(); 
+  document.body.removeChild(link); 
+});
+
+
+</script>
+</html>

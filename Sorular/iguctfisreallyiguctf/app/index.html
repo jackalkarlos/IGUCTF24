@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iguctf is really iguctf</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn.gelisim.edu.tr/logo/favicon.ico" type="image/x-icon"/>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #E6E6FA;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+            overflow: hidden; 
+        }
+        .image {
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s ease; /* Geçiş efekti */
+        }
+        .arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 24px;
+            color: #fff; /* Ok renkleri */
+            background-color: rgba(0, 0, 0, 0.5); /* Arkaplan rengi ve saydamlık */
+            border-radius: 50%; /* Yuvarlak şekil */
+            padding: 10px; /* Okun etrafındaki boşluk */
+        }
+        .arrow:hover {
+            background-color: rgba(0, 0, 0, 0.8); /* Fare üzerine gelindiğinde daha koyu bir arkaplan rengi */
+        }
+        .arrow-left {
+            left: 10px;
+        }
+        .arrow-right {
+            right: 10px;
+        }
+        .green {
+            background-color: #28a745;
+        }
+        .red {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+
+        <img src="gorsel1.jpg" class="image" id="main-image" alt="Photo">
+        <span class="arrow arrow-left" onclick="changeImage(-1)">&#10094;</span>
+        <span class="arrow arrow-right" onclick="changeImage(1)">&#10095;</span>
+        <center>Cevapları küçük harfle giriniz.</center>
+
+    </div>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control mb-3" id="textbox1" placeholder="Mekan İsmi" onblur="checkAnswer(this)" value="">
+                <input type="text" class="form-control mb-3" id="textbox2" placeholder="Mekan İsmi" onblur="checkAnswer(this)" value="">
+                <input type="text" class="form-control mb-3" id="textbox3" placeholder="Mekan İsmi" onblur="checkAnswer(this)" value="">
+              
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-primary submit-button" onclick="submitForm()" disabled>Submit</button>
+            </div>
+        </div>
+    </div>
+
+	  <div class="row">
+    <div class="col">
+<br>
+                <button class="btn btn-primary submit-button" onclick="flushSession()">Reset</button>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var currentImageIndex = 0;
+        var totalImages = 3;
+
+        function changeImage(n) {
+            var imageElement = document.getElementById('main-image');
+            currentImageIndex += n;
+            if (currentImageIndex >= totalImages) {
+                currentImageIndex = 0;
+            } else if (currentImageIndex < 0) {
+                currentImageIndex = totalImages - 1;
+            }
+            imageElement.src = 'gorsel' + (currentImageIndex + 1) + '.jpg';
+            updateTextbox(currentImageIndex + 1);
+        }
+
+function updateTextbox(index) {
+    var textBox = document.getElementById('textbox' + index);
+    textBox.focus();
+}
+
+	
+        var totalInputs = 3;
+        var completedInputs = 0;
+
+        // Input değiştiğinde local storage'a değeri kaydet.
+        function checkAnswer(input) {
+            var inputValue = input.value.trim().toLowerCase();
+            var inputId = input.id.substring(7);
+
+            // Input değerlerini local storage'a kaydet
+            localStorage.setItem('input' + inputId, inputValue);
+
+            fetch('Kontrol.php', {
+                method: 'POST',
+                body: JSON.stringify({ inputId: inputId, answer: inputValue })
+            })
+            .then(response => {
+                if (response.ok) {
+                    input.classList.add('green');
+                    input.disabled = true;
+                    completedInputs++;
+                } else {
+                    input.classList.add('red');
+                }
+                checkSubmitButton();
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        // Sayfa yüklendiğinde local storage'dan verileri al ve input alanlarına doldur.
+        window.onload = function() {
+            for (var i = 1; i <= totalInputs; i++) {
+                var inputValue = localStorage.getItem('input' + i);
+                if (inputValue !== null) {
+                    document.getElementById('textbox' + i).value = inputValue;
+                }
+            }
+        };
+
+        // Submit butonunu kontrol et ve gerekirse aktif hale getir.
+        function checkSubmitButton() {
+            var submitButton = document.querySelector('.submit-button');
+            if (completedInputs === totalInputs) {
+                submitButton.disabled = false;
+            } else {
+                submitButton.disabled = true;
+            }
+        }
+
+        function submitForm() {
+            var textbox1Value = document.getElementById('textbox1').value;
+            var textbox2Value = document.getElementById('textbox2').value;
+            var textbox3Value = document.getElementById('textbox3').value;
+
+            var formData = {
+                input1: textbox1Value,
+                input2: textbox2Value,
+                input3: textbox3Value
+            };
+
+            fetch('Kontrol.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+        function flushSession() {
+		localStorage.clear();
+		location.reload();
+	}
+    </script>
+</body>
+</html>
