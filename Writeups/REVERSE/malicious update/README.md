@@ -1,0 +1,15 @@
+# malicious update [999 pts]
+
+**Category:** REVERSE
+**Solves:** 3
+
+## Description
+>\xc5\x9eirketimizdeki \xc3\xa7al\xc4\xb1\xc5\x9fanlar\xc4\xb1m\xc4\xb1zdan birinin hesab\xc4\xb1ndan di\xc4\x9fer \xc3\xa7al\xc4\xb1\xc5\x9fanlar\xc4\xb1m\xc4\xb1za phising mesajlar\xc4\xb1 geldi\xc4\x9fini \xc3\xb6\xc4\x9frendik. S\xc3\xb6yledi\xc4\x9fine g\xc3\xb6re bu durum taray\xc4\xb1c\xc4\xb1 g\xc3\xbcncelleme program\xc4\xb1n\xc4\xb1 \xc3\xa7al\xc4\xb1\xc5\x9ft\xc4\xb1rd\xc4\xb1ktan sonra ba\xc5\x9flad\xc4\xb1. Bizim i\xc3\xa7in ne olup bitti\xc4\x9fini kontrol\xc2\xa0eder\xc2\xa0misin?\r\n\r\n<font color="red"><b>NOT: \xc4\xb0LG\xc4\xb0L\xc4\xb0 DOSYA ZARARLIDIR! KEND\xc4\xb0 ORTAMINIZDA KES\xc4\xb0NL\xc4\xb0KLE \xc3\x87ALI\xc5\x9eTIRMAYINIZ. </font></b>\r\n\t\r\n\tNOT: Z\xc4\xb0P \xc5\x9e\xc4\xb0FRES\xc4\xb0: "infected"\r\n\r\n*flag format: iguctf{placeholder}*\r\n\r\n**Author: alperaktasm**
+
+**Hint**
+* -
+
+## Solution
+
+### Flag
+
