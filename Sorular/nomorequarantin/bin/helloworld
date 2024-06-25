@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+
+blacklist = [';', '*', '&', '$', '|', '`', '>', '<','import','os','exec','eval','subprocess','system',' ','echo','cat','$IFS']
+for i in range(5):
+	try:
+		input_str = input("never gonna give you up: ")
+		clean = ''.join(char for char in input_str if char not in blacklist)
+		if input_str=="exit()" or input_str=="exit":
+			print("lol")
+		else:
+			exec(clean)
+	except:
+		print("exception kodu yazamayacak kadar tembelim")
+

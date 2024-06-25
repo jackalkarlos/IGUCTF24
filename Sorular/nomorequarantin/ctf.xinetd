@@ -1,0 +1,20 @@
+service ctf
+{
+    disable = no
+    socket_type = stream
+    protocol    = tcp
+    wait        = no
+    user        = ctf
+    type        = UNLISTED
+    port        = 9999
+    bind        = 0.0.0.0
+    server      = /usr/bin/python3
+    server_args = /home/ctf/helloworld
+    banner_fail = /etc/banner_fail
+    cps = 10 10
+    tcp_keepalive = yes
+    idle-timeout = 10
+    per_source  = 5 
+    rlimit_cpu  = 10
+    rlimit_as   = 512M
+}
