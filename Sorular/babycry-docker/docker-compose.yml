@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  service1:
+    build: .
+    ports:
+      - "86:80"
+      - "443:443"
+    volumes:
+      - ./src:/var/www/html/
