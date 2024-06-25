@@ -4,7 +4,9 @@
 **Solves:** 10
 
 ## Description
->*flag format: iguctf{placeholder}*\r\n\r\n**Author: alperaktasm**
+>*flag format: iguctf{placeholder}*
+
+**Author: alperaktasm**
 
 **Hint**
 * -

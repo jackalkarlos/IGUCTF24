@@ -4,7 +4,11 @@
 **Solves:** 1
 
 ## Description
->mama im in love with oversize tshirt\r\n\r\n*flag format: iguctf{placeholder}*\r\n\r\n**Author: karlos**
+>mama im in love with oversize tshirt
+
+*flag format: iguctf{placeholder}*
+
+**Author: karlos**
 
 **Hint**
 * https://en.wikipedia.org/wiki/BMP_file_format#File_structure
