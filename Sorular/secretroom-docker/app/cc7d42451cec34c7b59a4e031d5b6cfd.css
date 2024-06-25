@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: ##fff5f3;
+  background-image: url('0f6030d88e9066e1bd3034fb3bb843b5.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+.background.zoom {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+}
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.profile-avatar {
+  margin-bottom: 16px;
+  height: 88px;
+  width: 88px;
+  background-color: rgba(0, 0, 0, 0.75);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('6556bff12bff98e67da7f27aebc1e2b1.png');
+  border: 2px solid #808080;
+  border-radius: 100%;
+}
+
+.password-box {
+  display: flex;
+}
+
+input {
+  width: 240px;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid #808080;
+  color: #f0f0f0;
+  font-family: 'Segoe UI';
+  font-size: 13px;
+  outline: none;
+}
+
+button#login {
+  width: 36px;
+  background-image: url('https://i.ibb.co/t38Sw9n/icons8-right-24-2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 2px solid #808080;
+  border-left: 0;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s;
+}
+
+button#login:hover {
+  background-color: rgba(32, 32, 32, 0.9);
+}
