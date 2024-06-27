@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const CONFIG = {
     APPNAME: process.env['APPNAME'] || "Admin",
     APPURL: process.env['APPURL'] || "https://kizilayweb.igusiber.com.tr",
-    APPURLREGEX: process.env['APPURLREGEX'] || "^https://kizilayweb.igusiber.com.tr/.*$",
+    APPURLREGEX: process.env['APPURLREGEX'] || ".*",
     APPFLAG: process.env['APPFLAG'] || "iguctf{0zu_gulm3yen1n_yuzu_gul3r_m1?}",
     APPLIMITTIME: Number(process.env['APPLIMITTIME'] || "60"),
     APPLIMIT: Number(process.env['APPLIMIT'] || "5"),
