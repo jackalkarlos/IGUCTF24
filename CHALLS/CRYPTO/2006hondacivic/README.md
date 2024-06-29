@@ -4,14 +4,13 @@
 **Solves:** 21
 
 ## Description
-><center><iframe width="415" height="400" src="https://www.youtube.com/embed/w-zzofp-vRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
 
-*flag format: iguctf{placeholder}*
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/w-zzofp-vRI/0.jpg)](http://www.youtube.com/watch?v=w-zzofp-vRI "HONDA CIVIC 2006")
 
-**Author: karlos**
+>*flag format: iguctf{placeholder}*
 
-**Hint**
-* -
+>**Author: karlos**
+
 
 ## Solution
 
