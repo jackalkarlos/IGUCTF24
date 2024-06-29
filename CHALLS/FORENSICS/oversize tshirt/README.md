@@ -4,11 +4,11 @@
 **Solves:** 1
 
 ## Description
->mama im in love with oversize tshirt
+mama im in love with oversize tshirt
 
-*flag format: iguctf{placeholder}*
+>*flag format: iguctf{placeholder}*
 
-**Author: karlos**
+>**Author: karlos**
 
 **Hint**
 * https://en.wikipedia.org/wiki/BMP_file_format#File_structure
@@ -16,4 +16,4 @@
 ## Solution
 
 ### Flag
-
+iguctf{her_seye_boyle_tersind3n_mi-bakarsin?}
