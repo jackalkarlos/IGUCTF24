@@ -1,6 +1,7 @@
 # eval'ma komşu al 1 [218 pts]
 
 **Category:** MISC
+
 **Solves:** 16
 
 ## Description
