@@ -5,7 +5,7 @@
 
 ## Description
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/w-zzofp-vRI/0.jpg)](http://www.youtube.com/watch?v=w-zzofp-vRI "HONDA CIVIC 2006")
+[![HONDA CIVIC 2006](http://img.youtube.com/vi/w-zzofp-vRI/0.jpg)](http://www.youtube.com/watch?v=w-zzofp-vRI "HONDA CIVIC 2006")
 
 >*flag format: iguctf{placeholder}*
 
