@@ -1,6 +1,7 @@
 # 2006hondacivic [390 pts]
 
 **Category:** CRYPTO
+
 **Solves:** 21
 
 ## Description
