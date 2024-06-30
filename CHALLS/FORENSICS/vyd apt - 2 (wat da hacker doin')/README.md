@@ -1,4 +1,4 @@
-# vyd apt - 2 (wat da hacker doin)" [700 pts]
+# vyd apt - 2 (wat da hacker doin) [700 pts]
 
 **Category:** FORENSICS
 
@@ -32,4 +32,4 @@ Ah Yalan Dünya Corp. adlı şirket, sıradan günlerinden birinde beklenmedik b
 ## Solution
 
 ### Flag
-
+iguctf{oh_shhh!_1m_in!}
