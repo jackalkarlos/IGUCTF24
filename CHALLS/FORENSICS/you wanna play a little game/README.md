@@ -1,14 +1,15 @@
 # you wanna play a little game [345 pts]
 
 **Category:** FORENSICS
+
 **Solves:** 7
 
 ## Description
-><iframe width="400" height="400" src="https://www.youtube.com/embed/8CKjNcSUNt8" title="You Wanna Play A Little Game?!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![HONDA CIVIC 2006](http://img.youtube.com/vi/8CKjNcSUNt8/0.jpg)](http://www.youtube.com/watch?v=8CKjNcSUNt8 "you wanna play a little game")
 
-*flag format: iguctf{placeholder}*
+>*flag format: iguctf{placeholder}*
 
-**Author: karlos**
+>**Author: karlos**
 
 **Hint**
 * run some where
@@ -16,4 +17,4 @@
 ## Solution
 
 ### Flag
-
+iguctf{rüyalar_gerçek_olmaz_onlara_inanmazsan}
