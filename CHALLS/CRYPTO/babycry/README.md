@@ -1,6 +1,7 @@
 # babycry [300 pts]
 
 **Category:** CRYPTO
+
 **Solves:** 2
 
 ## Description
