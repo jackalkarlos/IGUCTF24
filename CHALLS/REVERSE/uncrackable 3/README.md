@@ -1,14 +1,15 @@
 # uncrackable 3 [748 pts]
 
 **Category:** REVERSE
+
 **Solves:** 4
 
 ## Description
->firmamız, yeraltı forumlarında ürün hakkında dönen dedikodulardan haberdar oldu. sorunun nerde olduğunu bulabilir misin?
+firmamız, yeraltı forumlarında ürün hakkında dönen dedikodulardan haberdar oldu. sorunun nerde olduğunu bulabilir misin?
 
-*flag format: iguctf{key}*
+>*flag format: iguctf{key}*
 
-**Author: alperaktasm**
+>**Author: alperaktasm**
 
 **Hint**
 * Is it really impossible to disassemble the impossible disassembly technique?
@@ -17,4 +18,4 @@
 ## Solution
 
 ### Flag
-
+iguctf{K2L3-MCF7-E1CP}
