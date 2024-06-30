@@ -4,14 +4,11 @@
 **Solves:** 22
 
 ## Description
-><iframe width="400" height="400" src="https://www.youtube.com/embed/UWxtpBcYzao" title="Swan Lake – End of Act II (Lauren Cuthbertson; The Royal Ballet)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![HONDA CIVIC 2006](http://img.youtube.com/vi/UWxtpBcYzao/0.jpg)](http://www.youtube.com/watch?v=UWxtpBcYzao "SWAN LAKE")
 
-*flag format: iguctf{placeholder}*
+>*flag format: iguctf{placeholder}*
 
-**Author: karlos**
-
-**Hint**
-* -
+>**Author: karlos**
 
 ## Solution
 
