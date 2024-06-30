@@ -6,10 +6,7 @@
 ## Description
 >*flag format: iguctf{placeholder}*
 
-**Author: alperaktasm**
-
-**Hint**
-* -
+>**Author: alperaktasm**
 
 ## Solution
 
