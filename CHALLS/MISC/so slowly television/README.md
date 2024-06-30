@@ -4,16 +4,12 @@
 **Solves:** 10
 
 ## Description
->![](https://igusiber.com.tr/files/81a2eb03a65ca45d4aecb5c6e30e57d8/istockphoto-1393393847-612x612.jpg)
 
 *flag format: iguctf{placeholder}*
 
-**Author: TA2ALQ**
-
-**Hint**
-* -
+>**Author: TA2ALQ**
 
 ## Solution
 
 ### Flag
-
+iguctf{YaV4s_Y4y1Nim1Zi_1zL3D1GiN1z_1c1N_T3sEkKurL3R}
