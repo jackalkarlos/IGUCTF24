@@ -22,4 +22,4 @@ quantum is too risky
 ## Solution
 
 ### Flag
-
+iguctf{ah_ellerim_kirilaydi_o_modulusu_ben_unutaydim}
