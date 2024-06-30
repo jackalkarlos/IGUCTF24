@@ -18,4 +18,4 @@ tasarımcımız, bu soruyu çizmek için çok uğraştı.
 ## Solution
 
 ### Flag
-
+iguctf{o_kotu_biri_bile_degil}
