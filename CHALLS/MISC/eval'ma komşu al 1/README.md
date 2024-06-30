@@ -5,13 +5,13 @@
 **Solves:** 16
 
 ## Description
-*Ooh, look what you made me do
+Ooh, look what you made me do
 
 Look what you made me do
 
 Look what you just made me do
 
-Look what you just made me...*
+Look what you just made me...
 
 >*flag format: iguctf{placeholder}*
 
