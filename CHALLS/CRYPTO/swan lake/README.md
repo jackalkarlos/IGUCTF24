@@ -14,4 +14,4 @@
 ## Solution
 
 ### Flag
-
+iguctf{o_zaman_dans_renk_time]
