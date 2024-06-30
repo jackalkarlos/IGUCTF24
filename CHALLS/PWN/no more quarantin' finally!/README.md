@@ -1,18 +1,16 @@
-# b"no more quarantin finally!" [498 pts]
+# no more quarantin finally! [498 pts]
 
 **Category:** PWN
 **Solves:** 4
 
 ## Description
-><iframe width="400" height="400" src="https://www.youtube.com/embed/QIIje6g8M50" title="Binary Rap" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![HONDA CIVIC 2006](http://img.youtube.com/vi/QIIje6g8M50/0.jpg)](http://www.youtube.com/watch?v=QIIje6g8M50 "BINARY RAP")
 
-*flag format: iguctf{placeholder}*
 
-**Author: karlos**
+>*flag format: iguctf{placeholder}*
 
-**Hint**
-* -
-
+>**Author: karlos**
+>
 ## Solution
 
 ### Flag
