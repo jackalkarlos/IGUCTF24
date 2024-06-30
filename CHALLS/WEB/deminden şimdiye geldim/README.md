@@ -1,10 +1,11 @@
 # deminden şimdiye geldim [693 pts]
 
 **Category:** WEB
+
 **Solves:** 6
 
 ## Description
->+bekle… bak! deminden şimdiye geldim.
++bekle… bak! deminden şimdiye geldim.
 
 -evet.
 
@@ -24,9 +25,9 @@
 
 <p style="color: red;">FUZZİNG YASAK!</p>
 
-*flag format: IGUCTF{placeholder}*
+>*flag format: IGUCTF{placeholder}*
 
-**Author: 0x433134572d39**
+>**Author: 0x433134572d39**
 
 **Hint**
 * RFC 4122
@@ -34,4 +35,4 @@
 ## Solution
 
 ### Flag
-
+IGUCTF{uu1d_3xpl0171n6!_5up3r_n4n0_53c0nd5}
