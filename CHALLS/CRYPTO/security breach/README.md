@@ -4,18 +4,15 @@
 **Solves:** 4
 
 ## Description
->tasarımcımız, bu soruyu çizmek için çok uğraştı. 
+tasarımcımız, bu soruyu çizmek için çok uğraştı. 
 
-*flag format: iguctf{secret_text}*
+>*flag format: iguctf{secret_text}*
 
-not: boşlukları ve satırları alt tire karakteri ile tamamlayın.
+>not: boşlukları ve satırları alt tire karakteri ile tamamlayın.
 
-örnek: iguctf{bu_bir_örnek_flag}
+>örnek: iguctf{bu_bir_örnek_flag}
 
-**Author: karlos**
-
-**Hint**
-* -
+>**Author: karlos**
 
 ## Solution
 
