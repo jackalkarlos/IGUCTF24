@@ -1,6 +1,7 @@
 # SmeagoL [480 pts]
 
 **Category:** PWN
+
 **Solves:** 10
 
 ## Description
