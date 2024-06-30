@@ -1,6 +1,7 @@
 # swan lake [245 pts]
 
 **Category:** CRYPTO
+
 **Solves:** 22
 
 ## Description
