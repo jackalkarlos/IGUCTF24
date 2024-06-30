@@ -27,4 +27,4 @@ Ah Yalan Dünya Corp. adlı şirket, sıradan günlerinden birinde beklenmedik b
 ## Solution
 
 ### Flag
-
+iguctf{13356309041143015_CVE-2023-38831_CBA6001BEBCF57F812491DB851EA318F}
