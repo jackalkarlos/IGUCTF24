@@ -1,6 +1,7 @@
 # iguctf is really iguctf [100 pts]
 
 **Category:** MISC
+
 **Solves:** 43
 
 ## Description
