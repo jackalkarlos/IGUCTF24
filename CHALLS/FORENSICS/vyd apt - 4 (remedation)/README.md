@@ -27,5 +27,18 @@ Görünen o ki, saldırgan içeride kalmak için bir şeyler denemiş. İlgili k
 
 ## Solution
 
+Soruda verilen örnekten ve yayınlanan ipucundan yola çıkarak saldırganın kalıcılık sağlamak adına sistemde oluşturduğu servis bilgilerine ihtiyacımız vardı. Bunu bulmak için C:\Windows\System32\config\SYSTEM dizinindeki kayıt defteri kayıtlarını incelememiz gerekiyordu. Bu dosyayı incelememiz gerektiğini, "windows services forensics" aratması yaparak öğrenebilirdik.
+
+Registry kayıtlarını ayrıştırmaya yarayan bir çok araçtan birisi olan RegRipper aracını kullanacağım. Hive File kısmına SYSTEM dosyamı, Report File kısmına sonuçların kaydedilmesini istediğim lokasyonu giriyorum.
+
+![image](https://github.com/jackalkarlos/IGUCTF24/assets/88983987/9da36c53-8e51-48f3-badc-2016ff825358)
+
+Oluşturulan text dosyası içerisinde bize gereken sonuçları ayıklayabilecek birkaç method vardı. Bunlardan birisi senaryoyu takip ederek çözdüyseniz ikinci soruda tespit ettiğimiz zararlı dosyaların isimlerini aratmaktı. Bir diğeri olayın gerçekleştiği saatlere yönelik kayıtları aratmaktı. Bir diğeri ise eğer Windows servislerine aşinaysanız gerçekten diğerlerine benzemeyen servisi bulmaktı.
+
+ControlSet001\Services altında saldırganın oluşturduğu servise rastlayabiliyordunuz.
+
+![image](https://github.com/jackalkarlos/IGUCTF24/assets/88983987/62302d83-b4ec-4a6b-95d8-0eddf3b6f508)
+
+Bu durumda ilk cevabımız <b>"WaaSMedicScv_Windows"</b>, ikinci cevabımız <b>"Windows Medical Service"</b>, üçüncü cevabımız <b>"C:\Users\ik\AppData\Local\Temp\priv.exe"</b> oluyor.
 ### Flag
-iguctf{WaaSMedicScv_Windows Medical Service_C:\\Users\\ik\\AppData\\Local\\Temp\\priv.exe}
+iguctf{WaaSMedicScv_Windows Medical Service_C:\Users\ik\AppData\Local\Temp\priv.exe}
