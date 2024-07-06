@@ -19,4 +19,4 @@ iş sürecimizi yürüttüğümüz sitemize bir saldırı düzenlendi! müdahale
 ## Solution
 
 ### Flag
-iguctf{b4ckd00r_UnL0cK3d
+iguctf{b4ckd00r_UnL0cK3d}
