@@ -34,5 +34,7 @@
 
 ## Solution
 
+<h2>https://cagrieser.com/uuid-sand/</h2>
+
 ### Flag
 IGUCTF{uu1d_3xpl0171n6!_5up3r_n4n0_53c0nd5}
