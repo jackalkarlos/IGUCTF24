@@ -19,6 +19,8 @@ Ah Yalan Dünya Corp. adlı şirket, sıradan günlerinden birinde beklenmedik b
 
 >Alternatif Link: https://drive.google.com/file/d/1BJFtWUXS9sARx2PQ4KEW4SHRQuuNoyVk/view?usp=drive_link
 
+>Zip Şifresi: RE2zi7tzHzIqWSGd3DOQWRoX1tXeYKqv
+
 >**Author: karlos**"
 
 **Hint**
