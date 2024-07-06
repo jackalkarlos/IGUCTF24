@@ -28,7 +28,7 @@ Ah Yalan Dünya Corp. adlı şirket, sıradan günlerinden birinde beklenmedik b
 
 ## Solution
 
-NOT: Tüm VYD APT serisi birbiri ile bağlantılı ve bir senaryoya bağlı olduğu için her bir sorudaki çözüm metni, serideki diğer soruların da çözümünü içerecektir. Örneğin, VYD APT - 1 içerisinde VYD APT - 2'nin de çözümüne erişebilirsiniz. Soru metinleri yine her soru için farklı kalacaktır.
+NOT: Tüm VYD APT serisi birbiri ile bağlantılı ve bir senaryoya bağlı olduğu için her bir sorudaki çözüm metni, serideki diğer soruların da çözümüne bağlıdır. Eğer ikinci, üçüncü veya dördüncü sorunun çözümünden başladıysanız birinci sorunun çözümünden başlayarak okumaya başlamanız tavsiye edilir.
 
 Sorunun metninde belirtildiği üzere soru bir disk imajı içeriyordu. "file" komutu çalıştırılarak sektör bilgileri de görüntülenebilirdi.
 
